@@ -1,0 +1,129 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .heading {
+    margin: 0;
+  }
+  
+  .registration-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .nav-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    padding: 10px 20px;
+    margin:10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .dropdown-button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin:10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .drop {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .registration-form {
+    margin-top: 20px;
+    width: 350px; /* Set the width to match the signup form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .registration-form input {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-form button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .registration-form input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  

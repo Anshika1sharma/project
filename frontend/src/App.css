@@ -1,0 +1,86 @@
+.navigation-bar {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navigation-buttons button {
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .signup-page,
+  .signin-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .signup-page h2,
+  .signin-page h2 {
+    margin-top: 0;
+  }
+  
+  .signup-page form,
+  .signin-page form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-page label,
+  .signin-page label {
+    margin-top: 10px;
+  }
+  
+  .signup-page input,
+  .signin-page input,
+  .signup-page select,
+  .signin-page select {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-page .error,
+  .signin-page .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .signup-page button[type="submit"],
+  .signin-page button[type="submit"] {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .signup-page button,
+  .signin-page button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .app {
+    padding: 20px;
+  }
+  
+  
